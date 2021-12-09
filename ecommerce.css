@@ -34,7 +34,7 @@ header {
 
     @media only mobile and (max-width: 429px){
         body {
-          flex-direction: ;
+          /* flex-direction: ; */
         }
         .container {
           flex-direction: column-reverse;
