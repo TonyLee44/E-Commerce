@@ -8,13 +8,14 @@
 
 body {
     background-color:lightgreen;
+    width: fit-content;
 }
 
 header {
     padding: 55px;
     height: 100%;
     color: whitesmoke;
-
+    width: 100%;
 }
 
 /* header css */
@@ -98,13 +99,13 @@ section {
     padding: 1em;
     text-align: center;
     border: 2px solid black;
-    border-radius: 90px;
+    border-radius: 25px;
 }
 
 .product > img {
     height: 300px;
     width: 200px;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 /* contact.html css */
@@ -159,6 +160,9 @@ input {
     #hero {
 	    background-image: url(img/tigerwoodshero.jpeg);
    }
+   body {
+    width: auto;
+}
     header {
     display: flex;
     flex-direction: column;
