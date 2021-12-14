@@ -85,12 +85,6 @@ section {
     color: black;
 }
 
-/* @media (min-width: 480px) {
-    #hero {
-	    background-image: url(img/tigerwoodshero.jpeg);
-   }
-} */
-
 /* Product.html css */
 .productContainer {
     display: grid;
@@ -160,12 +154,34 @@ input {
     color: red;
 }
 
-/* @media only screen and (max-width: 768px){
-    body {
-      flex-direction: row;
+/* Media Query for Tablet 800px or less */
+@media only screen and (max-width: 800px) {
+    #hero {
+	    background-image: url(img/tigerwoodshero.jpeg);
+   }
+    header {
+    display: flex;
+    flex-direction: column;
     }
-    .container {
-      flex-direction: column-reverse;
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    section h2 {
+        font-size: xx-large;
+    }
+    .productContainer > div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 10em;
+    
+    /* .product > div {
+        display: grid;
 
-    }
-  } */
+    } */
+}
+}
