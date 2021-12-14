@@ -63,7 +63,7 @@ nav ul li a {
 
 section {
     margin: 50px;
-    padding: auto;
+    padding: 0;
     text-align: center;
 }
 
@@ -82,11 +82,11 @@ section {
     color: black;
 }
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
     #hero {
 	    background-image: url(img/tigerwoodshero.jpeg);
    }
-}
+} */
 
 .productContainer {
     display: grid;
@@ -155,7 +155,7 @@ input {
     color: red;
 }
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
     body {
       flex-direction: row;
     }
@@ -163,4 +163,4 @@ input {
       flex-direction: column-reverse;
 
     }
-  }
+  } */
