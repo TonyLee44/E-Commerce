@@ -111,6 +111,7 @@ section {
 /* contact.html css */
 form {
     text-align: center;
+    width: 100%;
 }
 
 label {
