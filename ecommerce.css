@@ -7,8 +7,12 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    height: 100%;
+    width: 100%;
     background-color:lightgreen;
-    width: fit-content;
 }
 
 header {
@@ -30,6 +34,7 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 250px;
 }
 
 h2 {
@@ -108,6 +113,10 @@ section {
     border-radius: 25px;
 }
 
+.button {
+    
+}
+
 /* contact.html css */
 form {
     text-align: center;
@@ -161,12 +170,10 @@ input {
     #hero {
 	    background-image: url(img/tigerwoodshero.jpeg);
    }
-   body {
-    width: auto;
-}
     header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     }
     nav {
         display: flex;
@@ -177,6 +184,8 @@ input {
         justify-content: space-around;
     }
     section h2 {
+        display: flex;
+        flex-direction: column;
         font-size: xx-large;
     }
     .productContainer {
