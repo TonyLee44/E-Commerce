@@ -99,7 +99,7 @@ section {
 /* Product.html css */
 .productContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: .5em;
     grid-gap: 1em;
     margin: 20px;
@@ -210,6 +210,7 @@ footer {
         font-size: xx-large;
     }
     .productContainer {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: .5em;
         grid-gap: 1em;
