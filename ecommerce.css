@@ -85,7 +85,6 @@ section {
     padding:300px;
     width: 100%;
     height: auto;
-    /* max-width: 10000px; */
     margin:0 auto;
     display: flex;
     align-items: center;
@@ -106,6 +105,7 @@ section {
 }
 
 .product {
+    margin: 0;
     padding: 1em;
     text-align: center;
     border: 2px solid black;
@@ -188,9 +188,6 @@ footer {
 
 /* Media Query for Tablet 800px or less */
 @media only screen and (max-width: 800px) {
-    #hero {
-	    background-image: url(img/tigerwoodshero.jpeg);
-   }
     header {
     display: flex;
     flex-direction: column;
