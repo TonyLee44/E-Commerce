@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-style: oblique;
@@ -9,10 +9,10 @@
 body {
     display: flex;
     flex-direction: column;
-    flex:1 0 auto;
+    flex: 1 0 auto;
     height: 100%;
     width: 100%;
-    background-color:lightgreen;
+    background-color: lightgreen;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 /* header css */
-.stretch{
+.stretch {
     background-color: rgb(0, 32, 67);
     padding: 20px;
     margin: 0;
@@ -81,8 +81,8 @@ section {
 }
 
 /* home.html css */
-#hero{
-    padding:300px;
+#hero {
+    padding: 300px;
     width: 100%;
     margin: 0;
     display: flex;
@@ -110,7 +110,7 @@ section {
     border-radius: 25px;
 }
 
-.product > img {
+.product>img {
     height: 300px;
     width: 200px;
     border-radius: 25px;
@@ -122,7 +122,7 @@ button {
     border-radius: 10px;
 }
 
-button:hover{
+button:hover {
     margin: 0;
     padding: 10px;
     border-radius: 10px;
@@ -138,14 +138,14 @@ form {
 label {
     font-size: 30px;
     align-items: center;
-    }
-    
+}
+
 textarea {
     width: 500px;
     height: 120px;
     font-size: 20px;
 }
-    
+
 input {
     width: 300px;
     height: 40px;
@@ -160,6 +160,7 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
 #footer {
     font-size: 15px;
     height: 3em;
@@ -187,23 +188,27 @@ footer {
 /* Media Query for Tablet 800px or less */
 @media only screen and (max-width: 800px) {
     header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
     nav {
         display: flex;
         justify-content: center;
     }
+
     nav ul {
         display: flex;
         justify-content: space-around;
     }
+
     section h2 {
         display: flex;
         flex-direction: column;
         font-size: xx-large;
     }
+
     .productContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -211,13 +216,16 @@ footer {
         grid-gap: 1em;
         margin: 20px;
     }
+
     footer {
         display: flex;
         flex-direction: column;
     }
-    .footer-text > div {
+
+    .footer-text>div {
         font-size: 12px;
     }
+
     footer img {
         width: 25px;
     }
