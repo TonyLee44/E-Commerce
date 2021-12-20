@@ -84,13 +84,11 @@ section {
 #hero{
     padding:300px;
     width: 100%;
-    height: auto;
-    margin:0 auto;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
     background: url('img/tigerwoodshero.jpeg') no-repeat center / cover;
     color: black;
 }
@@ -173,7 +171,7 @@ footer {
     text-transform: uppercase;
     background-color: rgb(0, 32, 67);
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 #footer .footer-text .footer-links a {
